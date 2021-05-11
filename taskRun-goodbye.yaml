@@ -1,0 +1,8 @@
+apiVersion: tekton.dev/v1beta1
+kind: TaskRun
+metadata:
+    name: goodbye
+    namespace: demo
+spec:
+    taskRef:
+        name: goodbye
