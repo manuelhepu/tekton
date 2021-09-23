@@ -1,0 +1,12 @@
+---
+renovate:
+   method: inform
+   branchName: renovate
+   baseBranch: development
+   commitMessage: "Auto-actualización de la imagen por detección de vulnerabilidades"
+   reviewers: 
+   assignees:
+   stabilityDays: 3
+   rules:
+     updateTypes: ["minor","patch"]
+     automerge: true
